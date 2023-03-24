@@ -13,4 +13,5 @@ export const checkout =async (req,res)=>{
       res.status(200).jason({
         sucess:true,
       })
+      
 };
