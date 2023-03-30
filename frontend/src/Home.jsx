@@ -19,9 +19,9 @@ const Home = () => {
             key,
             amount: order.amount,
             currency: "INR",
-            name: "6 Pack Programmer",
-            description: "Tutorial of RazorPay",
-            image: "https://avatars.githubusercontent.com/u/25058652?v=4",
+            name: "RazorPay Checkout",
+            description: "RazorPay",
+            image: "",
             order_id: order.id,
             callback_url: "http://localhost:4000/api/paymentverification",
             prefill: {
