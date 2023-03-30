@@ -19,7 +19,7 @@ const Home = () => {
             key,
             amount: order.amount,
             currency: "INR",
-            name: "RazorPay Checkout",
+            name: "Razorpay",
             description: "RazorPay",
             image: "",
             order_id: order.id,
